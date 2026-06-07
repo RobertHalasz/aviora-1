@@ -74,7 +74,7 @@ export default function ContactSection() {
     const body = encodeURIComponent(
       `Name: ${form.name}\nEmail: ${form.email}\nCompany: ${form.company}\nPhone: ${form.phone}\nArea of Interest: ${form.area}\n\nMessage:\n${form.message}`
     );
-    window.location.href = `mailto:Robert.halasz@aviora.ae?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:info@aviora.ae?subject=${subject}&body=${body}`;
     setSubmitted(true);
   };
 
@@ -141,13 +141,13 @@ export default function ContactSection() {
                   Email
                 </p>
                 <a
-                  href="mailto:Robert.halasz@aviora.ae"
+                  href="mailto:info@aviora.ae"
                   className="text-base transition-colors duration-200"
                   style={{ color: "var(--bronze)" }}
                   onMouseEnter={(e) => (e.currentTarget.style.color = "oklch(0.72 0.06 55)")}
                   onMouseLeave={(e) => (e.currentTarget.style.color = "var(--bronze)")}
                 >
-                  Robert.halasz@aviora.ae
+                  info@aviora.ae
                 </a>
               </div>
               <div>

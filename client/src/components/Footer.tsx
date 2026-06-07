@@ -95,7 +95,7 @@ export default function Footer() {
                   Email
                 </p>
                 <a
-                  href="mailto:Robert.halasz@aviora.ae"
+                  href="mailto:info@aviora.ae"
                   className="text-sm transition-colors duration-200"
                   style={{ color: "oklch(0.72 0.06 55)" }}
                   onMouseEnter={(e) => (e.currentTarget.style.color = "oklch(0.82 0.06 55)")}
