@@ -1,9 +1,10 @@
 /**
  * AVIORA CONSULTANCY — Header Component
  * Design: Warm Mineral Light / Quiet Luxury
- * - Transparent on load, solid cream on scroll
- * - Logo left, nav center-right, CTA right
- * - Bronze hover underline micro-accent
+ * - Cobalt blue background (matching logo) — always solid
+ * - Logo larger and clearly visible against cobalt
+ * - Nav links in white/cream, bronze hover underline
+ * - CTA button in bronze
  * - Mobile: hamburger with slide-down menu
  */
 
@@ -17,6 +18,10 @@ const NAV_LINKS = [
   { label: "Approach", href: "#approach" },
   { label: "Contact", href: "#contact" },
 ];
+
+// Cobalt blue from logo: oklch(0.42 0.13 258) ≈ #2B4A8A
+const COBALT = "oklch(0.38 0.14 258)";
+const COBALT_BORDER = "oklch(1 0 0 / 0.10)";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -42,14 +47,14 @@ export default function Header() {
     <header
       className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
       style={{
-        backgroundColor: scrolled ? "rgba(245, 242, 238, 0.97)" : "transparent",
-        backdropFilter: scrolled ? "blur(8px)" : "none",
-        borderBottom: scrolled ? "1px solid rgba(154, 123, 79, 0.15)" : "none",
+        backgroundColor: COBALT,
+        borderBottom: scrolled ? `1px solid ${COBALT_BORDER}` : "1px solid transparent",
+        boxShadow: scrolled ? "0 2px 24px oklch(0 0 0 / 0.18)" : "none",
       }}
     >
       <div className="container">
-        <div className="flex items-center justify-between h-[72px]">
-          {/* Logo */}
+        <div className="flex items-center justify-between h-[80px]">
+          {/* Logo — larger, clearly visible on cobalt */}
           <a
             href="#home"
             onClick={(e) => { e.preventDefault(); handleNavClick("#home"); }}
@@ -58,7 +63,8 @@ export default function Header() {
             <img
               src="/manus-storage/aviora-logo-1_25f55cf2.png"
               alt="Aviora Consultancy"
-              className="h-10 w-auto"
+              className="h-14 w-auto"
+              style={{ filter: "brightness(1.05)" }}
             />
           </a>
 
@@ -68,8 +74,13 @@ export default function Header() {
               <button
                 key={link.href}
                 onClick={() => handleNavClick(link.href)}
-                className="relative text-xs font-semibold uppercase tracking-widest text-[oklch(0.30_0.01_65)] hover:text-[oklch(0.58_0.08_55)] transition-colors duration-200 group pb-0.5"
-                style={{ letterSpacing: "0.12em" }}
+                className="relative text-xs font-semibold uppercase tracking-widest transition-colors duration-200 group pb-0.5"
+                style={{
+                  color: "oklch(0.92 0.005 80)",
+                  letterSpacing: "0.12em",
+                }}
+                onMouseEnter={(e) => (e.currentTarget.style.color = "oklch(1 0 0)")}
+                onMouseLeave={(e) => (e.currentTarget.style.color = "oklch(0.92 0.005 80)")}
               >
                 {link.label}
                 <span
@@ -99,21 +110,21 @@ export default function Header() {
             <span
               className="block w-6 h-px transition-all duration-300"
               style={{
-                backgroundColor: "oklch(0.30 0.01 65)",
+                backgroundColor: "oklch(0.92 0.005 80)",
                 transform: mobileOpen ? "rotate(45deg) translate(3px, 3px)" : "none",
               }}
             />
             <span
               className="block w-6 h-px transition-all duration-300"
               style={{
-                backgroundColor: "oklch(0.30 0.01 65)",
+                backgroundColor: "oklch(0.92 0.005 80)",
                 opacity: mobileOpen ? 0 : 1,
               }}
             />
             <span
               className="block w-6 h-px transition-all duration-300"
               style={{
-                backgroundColor: "oklch(0.30 0.01 65)",
+                backgroundColor: "oklch(0.92 0.005 80)",
                 transform: mobileOpen ? "rotate(-45deg) translate(3px, -3px)" : "none",
               }}
             />
@@ -126,9 +137,8 @@ export default function Header() {
         className="lg:hidden overflow-hidden transition-all duration-300"
         style={{
           maxHeight: mobileOpen ? "400px" : "0",
-          backgroundColor: "rgba(245, 242, 238, 0.98)",
-          backdropFilter: "blur(8px)",
-          borderBottom: mobileOpen ? "1px solid rgba(154, 123, 79, 0.15)" : "none",
+          backgroundColor: "oklch(0.34 0.14 258)",
+          borderBottom: mobileOpen ? `1px solid ${COBALT_BORDER}` : "none",
         }}
       >
         <div className="container py-6 flex flex-col gap-5">
@@ -136,8 +146,13 @@ export default function Header() {
             <button
               key={link.href}
               onClick={() => handleNavClick(link.href)}
-              className="text-left text-xs font-semibold uppercase tracking-widest text-[oklch(0.30_0.01_65)] hover:text-[oklch(0.58_0.08_55)] transition-colors duration-200"
-              style={{ letterSpacing: "0.12em" }}
+              className="text-left text-xs font-semibold uppercase transition-colors duration-200"
+              style={{
+                color: "oklch(0.85 0.005 80)",
+                letterSpacing: "0.12em",
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = "oklch(1 0 0)")}
+              onMouseLeave={(e) => (e.currentTarget.style.color = "oklch(0.85 0.005 80)")}
             >
               {link.label}
             </button>
