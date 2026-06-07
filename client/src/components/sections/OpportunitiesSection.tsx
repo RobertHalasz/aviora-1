@@ -128,7 +128,7 @@ export default function OpportunitiesSection() {
               }}
             >
               <img
-                src="/assets/advisory-abstract.jpg"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663706999420/zHVtSamHUOuugcNX.jpg"
                 alt="Premium architectural detail"
                 className="w-full h-full object-cover"
               />

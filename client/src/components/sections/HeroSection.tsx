@@ -142,7 +142,7 @@ export default function HeroSection() {
             >
               <div ref={imgRef} className="absolute inset-0 scale-110">
                 <img
-                  src="/assets/hero-villa.jpg"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663706999420/ihYuLeFFHFPlQkvz.jpg"
                   alt="Premium Dubai luxury villa"
                   className="w-full h-full object-cover"
                 />
