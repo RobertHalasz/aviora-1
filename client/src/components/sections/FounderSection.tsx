@@ -59,18 +59,13 @@ export default function FounderSection() {
                   border: "1px solid rgba(154, 123, 79, 0.2)",
                   aspectRatio: "3/4",
                   maxHeight: "600px",
+                  backgroundColor: "oklch(0.94 0.01 80)",
                 }}
               >
                 <img
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663706999420/bt2aUCx6ZRoJ6xtRuMrVHh/founder-bg-Tn4U4NRmd7DzVRvTf9hMxz.webp"
-                  alt="Advisory office overlooking Dubai"
-                  className="w-full h-full object-cover"
-                />
-                <div
-                  className="absolute inset-0"
-                  style={{
-                    background: "linear-gradient(to top, oklch(0.18 0.12 258 / 0.4) 0%, transparent 60%)",
-                  }}
+                  src="/manus-storage/robert-halasz-nobg_d4916e20.png"
+                  alt="Robert Halasz — Principal Advisor, Aviora Consultancy"
+                  className="w-full h-full object-cover object-top"
                 />
                 {/* Corner accents */}
                 <div
