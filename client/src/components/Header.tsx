@@ -53,7 +53,7 @@ export default function Header() {
       }}
     >
       <div className="container">
-        <div className="flex items-center justify-between h-[80px]">
+        <div className="flex items-center justify-between h-[88px]">
           {/* Logo — larger, clearly visible on cobalt */}
           <a
             href="#home"
@@ -63,7 +63,7 @@ export default function Header() {
               <img
               src="/manus-storage/aviora-logo-cropped_98863276.png"
               alt="Aviora Consultancy"
-              className="h-16 w-auto"
+              className="h-20 w-auto"
               style={{ border: 'none', outline: 'none' }}
             />
           </a>

@@ -33,7 +33,7 @@ export default function Footer() {
             <img
               src="/manus-storage/aviora-logo-cropped_98863276.png"
               alt="Aviora Consultancy"
-              className="h-12 w-auto mb-4"
+              className="h-20 w-auto mb-4"
             />
             <p
               className="text-xs font-semibold uppercase mb-3"
