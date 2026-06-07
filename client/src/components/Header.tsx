@@ -60,11 +60,10 @@ export default function Header() {
             onClick={(e) => { e.preventDefault(); handleNavClick("#home"); }}
             className="flex items-center gap-3 flex-shrink-0"
           >
-            <img
-              src="/manus-storage/aviora-logo-1_25f55cf2.png"
+              <img
+              src="/manus-storage/aviora-logo-clean_23891077.png"
               alt="Aviora Consultancy"
-              className="h-14 w-auto"
-              style={{ filter: "brightness(1.05)" }}
+              className="h-16 w-auto"
             />
           </a>
 
