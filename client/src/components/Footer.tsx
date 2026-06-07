@@ -101,7 +101,7 @@ export default function Footer() {
                   onMouseEnter={(e) => (e.currentTarget.style.color = "oklch(0.82 0.06 55)")}
                   onMouseLeave={(e) => (e.currentTarget.style.color = "oklch(0.72 0.06 55)")}
                 >
-                  Robert.halasz@aviora.ae
+                  info@aviora.ae
                 </a>
               </div>
               <div>
