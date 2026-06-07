@@ -128,7 +128,7 @@ export default function OpportunitiesSection() {
               }}
             >
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663706999420/bt2aUCx6ZRoJ6xtRuMrVHh/advisory-abstract-8wHoCZK8dLLbHnpYndBuiq.webp"
+                src="/assets/advisory-abstract.jpg"
                 alt="Premium architectural detail"
                 className="w-full h-full object-cover"
               />

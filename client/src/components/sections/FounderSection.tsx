@@ -63,7 +63,7 @@ export default function FounderSection() {
                 }}
               >
                 <img
-                  src="/manus-storage/robert-halasz-nobg_d4916e20.png"
+                  src="/assets/robert-halasz.png"
                   alt="Robert Halasz — Principal Advisor, Aviora Consultancy"
                   className="w-full h-full object-cover object-top"
                 />
