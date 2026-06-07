@@ -33,13 +33,14 @@ function RevealDiv({ children, delay = 0, className = "" }: { children: React.Re
 }
 
 const NETWORK = [
-  { name: "Dezer Development", region: "UAE / USA" },
+  { name: "Dezer Development", region: "USA" },
   { name: "Ohana Development", region: "UAE" },
   { name: "Zenith", region: "UAE" },
   { name: "FAM Holding", region: "UAE" },
   { name: "Apart Group", region: "Georgia" },
   { name: "Tasceken Holding", region: "Turkey" },
   { name: "Greenbull Group", region: "UAE" },
+  { name: "R. Evolution", region: "UAE" },
 ];
 
 // Duplicate for seamless marquee
