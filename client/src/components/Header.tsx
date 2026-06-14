@@ -13,9 +13,9 @@ import { useState, useEffect } from "react";
 const NAV_LINKS = [
   { label: "Advisory", href: "#services" },
   { label: "Markets", href: "#markets" },
-  { label: "Founder", href: "#founder" },
+  { label: "Partners", href: "#partners" },
+  { label: "Case Studies", href: "#case-studies" },
   { label: "Network", href: "#network" },
-  { label: "Approach", href: "#approach" },
   { label: "Contact", href: "#contact" },
 ];
 
