@@ -116,7 +116,7 @@ export default function CaseStudiesSection() {
             <div className="p-10 lg:p-12 flex flex-col justify-between" style={{ backgroundColor: "oklch(0.99 0.005 80)" }}>
               <div>
                 <div className="flex items-center gap-3 mb-2">
-                  <span className="section-label">Mixed-Use Harbour Development</span>
+                  <span className="section-label">Mixed-Use Mega Development</span>
                 </div>
                 <h3
                   className="display-headline text-3xl mb-2"
@@ -128,7 +128,7 @@ export default function CaseStudiesSection() {
                   className="text-xs mb-6"
                   style={{ color: "oklch(0.60 0.01 65)", letterSpacing: "0.06em" }}
                 >
-                  North America · Mixed-Use · Capital Advisory
+                  North America · Mixed-Use · Capital Advisory. 2026
                 </p>
                 <div className="bronze-rule mb-6" />
 
@@ -149,9 +149,9 @@ export default function CaseStudiesSection() {
                 <div className="grid grid-cols-2 gap-4 mb-8">
                   {[
                     { label: "Asset Class", value: "Mixed-Use / Residential" },
-                    { label: "Advisory Scope", value: "Capital Introduction" },
+                    { label: "Advisory Scope", value: "Capital Introduction, JV Formation, Due Diligence" },
                     { label: "Market", value: "North America" },
-                    { label: "Capital Origin", value: "UAE & International" },
+                    { label: "Capital Origin", value: "UAE & USA" },
                     { label: "Components", value: "Residential, Retail, Hospitality" },
                     { label: "Status", value: "Active Advisory Mandate" },
                   ].map((m) => (
@@ -177,7 +177,7 @@ export default function CaseStudiesSection() {
                   >
                     "Aviora's role in this mandate demonstrates the firm's ability to bridge complex cross-border capital requirements with large-scale mixed-use development opportunities — applying market intelligence, investor network access, and structured advisory support to materially improve capital readiness."
                   </p>
-                  <p className="text-xs mt-2" style={{ color: "oklch(0.60 0.01 65)" }}>— Aviora Consultancy, Advisory Summary</p>
+                  <p className="text-xs mt-2" style={{ color: "oklch(0.60 0.01 65)" }}>— Aviora Client, Confidential</p>
                 </div>
                 <button
                   onClick={() => {
