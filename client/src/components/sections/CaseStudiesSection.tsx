@@ -252,7 +252,7 @@ export default function CaseStudiesSection() {
                   <p className="text-sm italic leading-relaxed" style={{ color: "oklch(0.78 0.01 80)" }}>
                     "A disciplined acquisition, a precise redevelopment, and a well-timed exit — this mandate illustrates Aviora's ability to create and structure capital around high-conviction residential opportunities in Dubai's premium market."
                   </p>
-                  <p className="text-xs mt-2" style={{ color: "oklch(0.55 0.01 80)" }}>— Aviora Consultancy, Advisory Summary</p>
+                  <p className="text-xs mt-2" style={{ color: "oklch(0.55 0.01 80)" }}>— Aviora Investor, Confidential</p>
                 </div>
                 <button
                   onClick={() => {
