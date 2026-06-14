@@ -215,7 +215,7 @@ export default function CaseStudiesSection() {
                   className="text-xs mb-6"
                   style={{ color: "oklch(0.62 0.01 80)", letterSpacing: "0.06em" }}
                 >
-                  Dubai, UAE · Residential · Capital Creation &amp; Investor Relations · 2024
+                  Dubai, UAE · Residential · Capital Creation &amp; Investor Relations · 2025–2026
                 </p>
                 <div className="bronze-rule mb-6" />
 
