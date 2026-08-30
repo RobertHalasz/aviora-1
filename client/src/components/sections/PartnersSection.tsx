@@ -56,7 +56,7 @@ export default function PartnersSection() {
               }}
             >
               <img
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663706999420/vdHeHPJmiHUKKyJN.png"
+                src="https://github.com/RobertHalasz/aviora-1/blob/main/docs/assets/IMG_2096.JPG"
                 alt="Robert Halasz"
                 className="w-full h-full object-cover object-top"
               />
