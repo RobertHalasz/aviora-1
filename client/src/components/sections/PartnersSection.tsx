@@ -56,7 +56,7 @@ export default function PartnersSection() {
               }}
             >
               <img
-                src="https://github.com/RobertHalasz/aviora-1/blob/main/client/public/assets/IMG_2096.JPG"
+                src="/assets/IMG_2096.JPG"
                 alt="Robert Halasz"
                 className="w-full h-full object-cover object-top"
               />
