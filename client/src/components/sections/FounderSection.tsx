@@ -63,7 +63,7 @@ export default function FounderSection() {
                 }}
               >
                 <img
-                  src="https://github.com/RobertHalasz/aviora-1/blob/main/docs/assets/IMG_2096.JPG"
+                  src="https://github.com/RobertHalasz/aviora-1/blob/main/client/public/assets/IMG_2096.JPG"
                   alt="Robert Halasz — Principal Advisor, Aviora Consultancy"
                   className="w-full h-full object-cover object-top"
                 />
