@@ -24,8 +24,8 @@ function RevealDiv({ children, delay = 0, className = "" }: { children: React.Re
 }
 
 const CASE_IMAGES = [
-  "client/public/assets/Uptown Harbour 1.png",
   "client/public/assets/Miami Homes.png",
+  "client/public/assets/Uptown Harbour 1.png",
 ];
 
 export default function CaseStudiesSection() {
