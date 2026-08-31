@@ -61,11 +61,18 @@ export default function Header() {
             className="flex items-center gap-3 flex-shrink-0"
           >
               <img
-                src="/assets/aviora-logo.png"
+              src="/assets/aviora-logo.png"
                 alt="Aviora Consultancy"
-                className="block h-20 w-auto max-w-none object-contain"
-                style={{ border: "0", outline: "0", display: "block" }}
-            />
+                width={80}
+                height={80}
+                className="block h-20 w-20 shrink-0 object-contain"
+                style={{
+                  display: "block",
+                  border: 0,
+                  outline: 0,
+                  objectFit: "contain",
+                }}
+              />
           </a>
 
           {/* Desktop Nav */}
