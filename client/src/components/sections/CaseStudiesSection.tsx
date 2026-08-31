@@ -24,7 +24,7 @@ function RevealDiv({ children, delay = 0, className = "" }: { children: React.Re
 }
 
 const CASE_IMAGES = [
-  "https://files.manuscdn.com/user_upload_by_module/session_file/310519663706999420/rYPZZypsnpMAPkGi.png",
+  "client/public/assets/Uptown Harbour 1.png",
   "https://files.manuscdn.com/user_upload_by_module/session_file/310519663706999420/DLJyvPNOPBsKbuAb.png",
 ];
 
