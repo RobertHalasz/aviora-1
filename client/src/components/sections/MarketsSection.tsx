@@ -69,7 +69,7 @@ export default function MarketsSection() {
       {/* Background image with overlay */}
       <div className="absolute inset-0">
         <img
-          src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663706999420/ttgvEgrLKulwzTLN.jpg"
+          src="docs/assets/markets-dubai.jpg"
           alt="Aerial Dubai luxury residential district"
           className="w-full h-full object-cover"
         />
