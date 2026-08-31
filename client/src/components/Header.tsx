@@ -61,10 +61,10 @@ export default function Header() {
             className="flex items-center gap-3 flex-shrink-0"
           >
               <img
-              src="client/public/assets/aviora-logo.png"
-              alt="Aviora Consultancy"
-              className="h-20 w-auto"
-              style={{ border: 'none', outline: 'none' }}
+                src="/assets/aviora-logo.png"
+                alt="Aviora Consultancy"
+                className="block h-20 w-auto max-w-none object-contain"
+                style={{ border: "0", outline: "0", display: "block" }}
             />
           </a>
 
