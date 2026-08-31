@@ -31,9 +31,10 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <img
-              src="client/public/assets/aviora-logo.png"
-              alt="Aviora Consultancy"
-              className="h-20 w-auto mb-4"
+                src="/assets/aviora-logo.png"
+                alt="Aviora Consultancy"
+                className="block h-20 w-auto max-w-none object-contain"
+                style={{ border: "0", outline: "0", display: "block" }}
             />
             <p
               className="text-xs font-semibold uppercase mb-3"
