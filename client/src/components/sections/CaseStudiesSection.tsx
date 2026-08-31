@@ -142,7 +142,7 @@ export default function CaseStudiesSection() {
                   className="text-sm leading-relaxed mb-8"
                   style={{ color: "oklch(0.38 0.01 65)" }}
                 >
-                  Aviora Consultancy was engaged to provide strategic capital advisory, investor positioning, and cross-border capital introduction services — connecting the development with aligned capital partners from the UAE and international markets. The advisory scope included feasibility validation, capital stack structuring guidance, and investor narrative development.
+                  Aviora Consultancy is engaged to provide strategic capital advisory, investor positioning, and cross-border capital introduction services — connecting the development with aligned capital partners from the UAE and international markets. The advisory scope included feasibility validation, capital stack structuring guidance, and investor narrative development.
                 </p>
 
                 {/* Key metrics */}
@@ -269,7 +269,7 @@ export default function CaseStudiesSection() {
             {/* Image side */}
             <div className="relative overflow-hidden" style={{ minHeight: "480px" }}>
               <img
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663706999420/SdqFrkhrGlCceGZG.jpg"
+                src="docs/assets/Miami Homes.png"
                 alt="Al Barari luxury villa redevelopment"
                 className="w-full h-full object-cover"
               />
