@@ -11,9 +11,9 @@
 import { useEffect, useRef, useState } from "react";
 
 const HERO_IMAGES = [
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663706999420/bt2aUCx6ZRoJ6xtRuMrVHh/hero-video-frame1-dNJPiH7iaRDzKrSZRFZbB7.webp",
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663706999420/bt2aUCx6ZRoJ6xtRuMrVHh/hero-video-frame2-J53YSBkXrhvfoqB4EoGCuh.webp",
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663706999420/bt2aUCx6ZRoJ6xtRuMrVHh/hero-video-frame3-QWYunRDD8p7MnfkydXjRTE.webp",
+  "client/public/assets/markets-dubai.jpg",
+  "client/public/assets/hero-villa.jpg",
+  "client/public/assets/founder-bg.jpg",
 ];
 
 const CAPTIONS = ["Dubai", "Miami", "Intelligence"];
