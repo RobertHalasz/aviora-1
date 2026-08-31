@@ -269,7 +269,7 @@ export default function CaseStudiesSection() {
             {/* Image side */}
             <div className="relative overflow-hidden" style={{ minHeight: "480px" }}>
               <img
-                src="docs/assets/Miami Homes.png"
+                src="/assets/Miami%20Homes.png"
                 alt="Al Barari luxury villa redevelopment"
                 className="w-full h-full object-cover"
               />
