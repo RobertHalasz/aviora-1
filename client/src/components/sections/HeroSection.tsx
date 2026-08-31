@@ -11,9 +11,9 @@
 import { useEffect, useRef, useState } from "react";
 
 const HERO_IMAGES = [
-  "client/public/assets/markets-dubai.jpg",
-  "client/public/assets/hero-villa.jpg",
-  "client/public/assets/founder-bg.jpg",
+  "/assets/markets-dubai.jpg",
+  "/assets/hero-villa.jpg",
+  "/assets/founder-bg.jpg",
 ];
 
 const CAPTIONS = ["Dubai", "Miami", "Intelligence"];
