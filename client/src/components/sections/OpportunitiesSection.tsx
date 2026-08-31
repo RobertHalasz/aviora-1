@@ -128,7 +128,7 @@ export default function OpportunitiesSection() {
               }}
             >
               <img
-                src="docs/assets/advisory-abstract.jpg"
+                src="/assets/advisory-abstract.jpg"
                 alt="Premium architectural detail"
                 className="w-full h-full object-cover"
               />
