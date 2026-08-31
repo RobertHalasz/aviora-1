@@ -31,7 +31,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <img
-              src="/assets/aviora-logo.png"
+              src="client/public/assets/aviora-logo.png"
               alt="Aviora Consultancy"
               className="h-20 w-auto mb-4"
             />
